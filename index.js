@@ -15,10 +15,12 @@ const {organisationmodule,usermodule} = require("./module")
 const ISSUE = [];
 const BOARD = [];
 
-let USERS_ID = 1;
+/*let USERS_ID = 1;
 let ORGANISATION_ID = 1;
 let ISSUE_ID = 1;
-let BOARD_ID = 1;
+let BOARD_ID = 1;\
+when the mongoose data base is not given
+*/
 
 const app = express();
 app.use(cors());
